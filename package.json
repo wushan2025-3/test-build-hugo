@@ -3,8 +3,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "install": "echo 'No npm install needed for Hugo'",
-    "build": "hugo",
-    "serve": "hugo server"
+    "build": "npx hugo",
+    "serve": "npx hugo server"
+  },
+  "devDependencies": {
+    "hugo-extended": "^0.166.0"
   }
 }
